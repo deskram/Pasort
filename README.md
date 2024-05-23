@@ -42,8 +42,7 @@ Pasort is a Python utility tool designed to extract domain names, IP addresses, 
    ```shell
    python pasort.py
    ```
-![](https://a.top4top.io/p_30649h4zl1.jpg)
-
+![pasort](https://a.top4top.io/p_30649h4zl1.jpg)
 5. Follow the on-screen instructions to provide the input file path and the output folder path.
 
 6. Pasort will parse the input file, extract domain names, IP addresses, and network ranges, and save them into separate files within the specified output folder.
