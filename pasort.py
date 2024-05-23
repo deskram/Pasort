@@ -9,7 +9,6 @@ class DeskRam:
         self.logo = self.generate_logo()
 
     def generate_logo(self):
-        # Create a professional logo
         logo = f"""{Fore.GREEN}
  ▄▄▄· ▄▄▄· .▄▄ ·       ▄▄▄  ▄▄▄▄▄
 ▐█ ▄█▐█ ▀█ ▐█ ▀. ▪     ▀▄ █·•██  
@@ -20,14 +19,12 @@ class DeskRam:
         return logo
 
     def animate_text(self, text, delay=0.05):
-        # Animation for printing text
         for char in text:
             print(char, end='', flush=True)
             time.sleep(delay)
         print()
 
     def input_text_animation(self, text, delay=0.05):
-        # Animation for INPUT prompt
         input_text = f"{Fore.BLUE}{text}{Style.RESET_ALL}"
         for char in input_text:
             print(char, end='', flush=True)
