@@ -42,7 +42,7 @@ Pasort is a Python utility tool designed to extract domain names, IP addresses, 
    ```shell
    python pasort.py
    ```
-[![](https://a.top4top.io/p_30649h4zl1.jpg)
+![](https://a.top4top.io/p_30649h4zl1.jpg)
 
 5. Follow the on-screen instructions to provide the input file path and the output folder path.
 
